@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- hier zet je de code in de head tags -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Do+Hyeon|DM+Sans">
+    <title> INNOWEB </title>
+</head>
+
+<body>
+    <div class="fixedmenu">
+        <div class="header">
+            <nav class="innerheader">
+
+                <nav class="logocontainer">
+                    <h1><a href="index.html">INNOWEB</a></h1>
+                </nav>
+
+                <nav class="menucontainer">
+                    <ul>
+                        <li><a href="index.html">Homepage</a></li>
+                        <li><a href="about.html">Wie ben ik</a></li>
+                        <li><a href="diensten.html">Diensten en prijzen</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+
+            </nav>
+        </div>
+
+        <hr class="yellowbar">
+
+    </div>
+
+    <div class="container">
+        <main>
+            <section>
+
+                <div class="box-1">
+                    <h2>Afspraak maken</h2>
+                    <p>Hebt u een vraag of wilt u graag een afspraak maken bij INNOWEB? Vult u dan
+                        onderstaand formulier in en wij nemen zo spoedig mogelijk contact met u op </p>
+
+                    <form name="contact" method="post" data-netlify="true">
+                        <label> Naam:<input type="text" name="Name" id="Name" value="Vul hier uw naam in"></label>
+                        <label> E-Mail:<input type="email" name="email" id="email"
+                                value="Vul hier uw e-mailadres in"></label>
+                        <label> Telefoonnummer:<input type="tel" name="phonenumber" id="phone"
+                                value="Vul hier uw telefoonnummer in"></label>
+                        <label> Bezoekadres:<input type="text" name="adress" id="adress"
+                                value="Vul hier uw adres in"></label>
+                        <label> Uw vraag en bericht: <textarea type="textarea" name="biography"
+                                id="biography"> Vul hier uw bericht in</textarea></label>
+                        <label><input type="reset" name="reset" id="reset" value="Reset"></label>
+                        <label><input type="submit" name="submit" id="submit" value="Versturen"></label>
+                    </form>
+                </div>
+
+                <div class="box-2">
+                    <h2>Contact</h2>
+                    <p> Wij zijn telefonisch en per e-mail bereikbaar voor vragen en opmerkingen.</p>
+                    <p> <a href="callto: +31683789297">+31 6 12 34 56 78</a> </p>
+                    <p> <a href="mailto: info@innoweb.nl">info@innoweb.nl</a></p>
+                </div>
+
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>© INNOWEB</p>
+    </footer>
+
+</body>
+
+</html>
